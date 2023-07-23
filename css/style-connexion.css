@@ -1,0 +1,72 @@
+/* initialisation de la page */
+html, head,title,div,input,form, label, a, h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* debut du design du contenu de la page  */
+.container{
+    background-color: #000075;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.formulaire{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+
+
+}
+.formulaire h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-style: italic;
+}
+
+/* design des champ du formulaire  */
+.email, .password {
+    margin: 20px 0px;
+    font-size: 1.5em;
+}
+label {
+    font-weight: bold;
+}
+.email input, .password input, .btn input{
+    width: 100%;
+    padding: 10px;
+}
+.remenber{
+    font-size: 20px;
+}
+
+.btn {
+    margin: 15px 0px; 
+    padding-left: 20px;
+}
+.btn input {
+    background-color: #000075;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.forgot a {
+    float: right;
+}
+
+.btn input:hover{
+    background-color: white;
+    color: #000075;
+    font-weight: bold;
+    font-size: 1.8em;
+}
